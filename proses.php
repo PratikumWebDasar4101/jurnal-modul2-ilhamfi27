@@ -49,4 +49,3 @@ if (isset($_GET['submit'])) {
 	rekursif_baris($angka);
 	deret_ganjil_genap($angka);
 }
-?>
