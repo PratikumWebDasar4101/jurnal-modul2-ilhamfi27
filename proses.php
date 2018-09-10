@@ -24,14 +24,14 @@ function deret_ganjil_genap($value){
 		else
 			array_push($arr_ganjil, $i);
 	}
-	echo "Genap&emsp = ";
+	echo "Genap&emsp; = ";
 	for ($i=0; $i < count($arr_genap); $i++) { 
 		echo $arr_genap[$i];
 		if ($i != count($arr_genap)-1)
 			echo ", ";
 	}
 	echo "<br>";
-	echo "Ganjil&emsp = ";
+	echo "Ganjil&emsp; = ";
 	for ($i=0; $i < count($arr_ganjil); $i++) { 
 		echo $arr_ganjil[$i];
 		if ($i != count($arr_ganjil)-1)
